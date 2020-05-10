@@ -1,0 +1,157 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(u.jpg);
+}
+
+
+.card{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 200px 200px 80px;
+    grid-template-areas: "images" "text";
+    font-family: cursive;
+    border-radius: 18px;
+    background:lightgray;
+    box-shadow: 7px 7px 20px black;
+    text:bold;
+    transition: 0.4s ease;
+    cursor: pointer;
+    opacity:0.85;    
+}
+
+
+.card-image{
+    grid-area: images;
+    background: url(z.jpg);
+    border-top-left-radius: 18px ;
+    border-top-right-radius: 18px ;
+}
+
+
+.card-text .date{
+    font-size: 14px;
+    margin-top: 1000px;
+}
+
+.card-text p{
+    font-size: 12px;
+}
+
+.card-text h2{
+    font-size: 20px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+
+}
+
+
+section{
+    padding-left: 70px;
+}
+
+.card2{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 200px 200px 80px;
+    grid-template-areas: "images" "text";
+    font-family: cursive;
+    border-radius: 18px;
+    background:lightgray;
+    box-shadow: 7px 7px 20px black;
+    text:bold;
+    transition: 0.4s ease;
+    cursor: pointer;
+    opacity:0.85;    
+}
+
+.card-image2{
+    grid-area: images;
+    background: url(x.jpg);
+    border-top-left-radius: 18px ;
+    border-top-right-radius: 18px ;
+}
+
+.card-text .date2{
+    font-size: 14px;
+    margin-top: 1000px;
+}
+
+.card-text2 p{
+    font-size: 12px;
+}
+
+.card-text2 h2{
+    font-size: 20px;
+}
+
+.card2:hover{
+    transform: scale(1.1);
+
+}
+
+.card3{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 200px 200px 80px;
+    grid-template-areas: "images" "text";
+    font-family: cursive;
+    border-radius: 18px;
+    background:lightgray;
+    box-shadow: 7px 7px 20px black;
+    text:bold;
+    transition: 0.4s ease;
+    cursor: pointer;
+    opacity:0.85;    
+}
+
+.card-image3{
+    grid-area: images;
+    background: url(y.jpg);
+    border-top-left-radius: 18px ;
+    border-top-right-radius: 18px ;
+    padding-bottom: 100px;
+}
+
+.card-text .date3{
+    font-size: 14px;
+}
+
+.card-text3 p{
+    font-size: 12px;
+}
+
+.card-text3 h2{
+    font-size: 20px;
+}
+
+.card3:hover{
+    transform: scale(1.1);
+
+}
+
+
+@media  screen and (max-width: 600px) {
+    body {
+        display:block;
+        height: 100%;
+        transition: 2s ease;
+
+    }
+    .card,.card2,.card3{
+        width: 300px;
+        
+    }
+
+
+section{
+    padding-top: 25px;
+}
